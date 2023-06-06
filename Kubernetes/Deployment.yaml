@@ -1,4 +1,4 @@
-kind: Deployment
+kind: Deployments
 apiVersion: apps/v1
 metadata:
    name: webapp-deployment
