@@ -13,6 +13,6 @@ RUN cp -rvf static-site-main/* .
 RUN rm -rf static-site-main main.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80 22
-
+run
 #port 22 (ssh)
 #port 80
